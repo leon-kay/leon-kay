@@ -1,4 +1,15 @@
-<h3>Hey there! Nice to see you. 👋</h3>
+<h3 align="center">Hey there! Nice to see you. 👋</h3>
+<br>
+<div style="text-align: center;">
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-C%23-cyan"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Solidity-brightblue"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Hardhat-blue"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-JavaScript-brightpurple"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Career-Smart%20Contract%20Engineer-red">
+</div>
+<br>
+
+
 <p>👋 Hello! I'm Leon-Kay, a software developer born after 2000 from Suzhou, China, specializing in programming innovative solutions. With over a year of experience in software development, I am proficient in WPF, C#, and various communication protocols.</p>
 <p>🧠 I'm passionate about challenges. I delved into the blockchain field in October 2021 and started immersing myself deeply since December 2023. I'm self-teaching smart contract technology, aspiring to pursue a career in this domain. Here's what I've learned through self-study:</p>
 <ul>
