@@ -11,7 +11,7 @@
 
 
 <p>👋 Hello! I'm Leon-Kay, a software developer born after 2000 from Suzhou, China, specializing in programming innovative solutions. With over a year of experience in software development, I am proficient in WPF, C#, and various communication protocols.</p>
-<p>🧠 I'm passionate about challenges. I delved into the blockchain field in October 2021 and started immersing myself deeply since December 2023. I'm self-teaching smart contract technology, aspiring to pursue a career in this domain. Here's what I've learned through self-study:</p>
+<p>🧠 I'm passionate about challenges. I dipped my toes into the world of blockchain and cryptocurrencies in October 2021, slowly cultivating a deep interest. It wasn't until December 2023 that I began formally studying blockchain technology. I aspire to build my career in this domain. Here's what I've learned through self-study:</p>
 <ul>
   <li>Understanding JavaScript, a core language for modern web development.</li>
   <li>Grasping basic concepts in blockchain, including blocks, blockchain, consensus mechanisms, etc.</li>
