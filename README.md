@@ -19,7 +19,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Merkle%20Trees-red"> 
 </div>
 <br>
-<p>👋 Hello! I'm Leon-Kay, a software developer from Suzhou, China, born after 2000. I specialize in crafting innovative solutions and have over a year of experience in the software development field. I have 1.5 years of practical development experience.</p>
+<p>👋 Hello! I'm Leon-Kay, a software developer based in Suzhou, China. I was born after 2000 and specialize in crafting innovative solutions. With over 1.5 years of experience in software development, I possess strong programming acumen and a knack for independent exploration and research in new domains.</p>
 <p>🧠 I thrive on challenges. In October 2021, I first encountered research on blockchain and cryptocurrency, which gradually cultivated my strong interest. It wasn't until December 2023 that I officially began delving into blockchain technology. My goal is to establish a career in this field. Here's an overview of my study plan:</p>
 <table border="2" align="center">
   <tr>
