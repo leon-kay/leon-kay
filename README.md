@@ -68,7 +68,7 @@
   <tr>
     <td>8</td>
     <td>Smart Contract Writing<br>Read common contracts and write them separately to deepen understanding of smart contracts.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>9</td>
@@ -101,7 +101,7 @@
   <tr>
     <td>14</td>
     <td>Hardhat Practical Techniques<br>Learn practical techniques in Hardhat, including automation scripts, code verification, etc.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>15</td>
@@ -131,7 +131,7 @@
   <tr>
     <td>20</td>
     <td>Smart Contract Security<br>Deeply understand various vulnerabilities and attack methods in smart contract security, and learn how to write secure smart contracts.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>21</td>
