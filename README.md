@@ -91,7 +91,7 @@
   <tr>
     <td>12</td>
     <td>Advanced Solidity Learning<br>Deepen understanding of Solidity, mastering finer syntax and features.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>13</td>
@@ -106,7 +106,7 @@
   <tr>
     <td>15</td>
     <td>Smart Contract Optimization Techniques<br>Understand smart contract optimization techniques, including gas cost optimization, storage optimization, etc.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>16</td>
