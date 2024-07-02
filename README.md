@@ -121,7 +121,7 @@
   <tr>
     <td>18</td>
     <td>Using OpenZeppelin Library<br>Master the use of standard contracts and libraries provided by OpenZeppelin.</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
     <td>19</td>
