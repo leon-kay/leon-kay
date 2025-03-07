@@ -1,22 +1,17 @@
 <h3 align="center">Hey there! Nice to see you. 👋</h3>
 <br>
 <div style="text-align: center;">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Career-Smart%20Contract%20Engineer-cyan">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Solidity-brightblue"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Smart%20Contract-brightblue">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Common%20Smart%20Contract-brightblue">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Hardhat-brightblue"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Foundry-brightblue"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-JavaScript-brightblue"> 
-     <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-C%23-brightblue"> 
-     <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Remix-brightblue"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Blockchain-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-OpenZeppelin-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Smart%20Contract%20Security-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-DeFi-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Ether.js-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Web3.js-red"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Understand-Merkle%20Trees-red"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Career-IT%20Engineer-cyan">
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Solidity-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Golang-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Smart%20Contract-yellowgreen">
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Hardhat-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-JavaScript-yellowgreen"> 
+     <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-C%23-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Blockchain-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-OpenZeppelin-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillfuld-Smart%20Contract%20Security-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-DeFi-yellowgreen"> 
 </div>
 <br>
 
@@ -29,4 +24,7 @@
 <p>Looking ahead, I’m excited to keep pushing myself, becoming a well-rounded full-stack developer, and making my mark in the Web3 space. At work, I believe in the power of teamwork and individual skills because “teamwork + personal effort = extraordinary achievements.”</p>
 
 <p>If you share similar interests or want to chat about tech and the future, feel free to reach out! Let’s explore this decentralized world together and take on limitless challenges!</p>
+
+<p>📧 You can reach me at <a href="mailto:leonkay.cn@gmail.com">leonkay.cn@gmail.com</a> || WeChat: <strong>lk34041515</strong></p>
+
 
