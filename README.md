@@ -1,30 +1,67 @@
 <h3 align="center">Hey there! Nice to see you. 👋</h3>
-<br>
+
 <div style="text-align: center;">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Career-IT%20Engineer-cyan">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Solidity-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Golang-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Smart%20Contract-yellowgreen">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Hardhat-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-JavaScript-yellowgreen"> 
-     <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-C%23-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-Blockchain-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-OpenZeppelin-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillfuld-Smart%20Contract%20Security-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skillful-DeFi-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Job-Web3%20Engineer-cyan">
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-JavaScript-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-React-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Solidity-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Web3.js-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Ether.js-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Solana-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Rust-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-C%23-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Hardhat-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Golang-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Smart%20Contract-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Blockchain-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-OpenZeppelin-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Smart%20Contract%20Security-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-DeFi-yellowgreen"> 
+    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Anchor-yellowgreen"> 
 </div>
+
 <br>
 
-<p>Hey there! I’m a software developer with a passion for technology and a never-ending curiosity. As a Web3 believer, I truly think decentralization will revolutionize the internet and open up a whole new world of possibilities. While diving into the world of Web3, I’m also all in for the decentralized work culture – enjoying the freedom and flexibility that comes with it. I believe that the best work isn’t a burden, but a part of life itself.</p>
+<p style="max-width: 800px; margin: auto; text-align: justify;">
+I’m an engineer with a passion for Web3. In this rapidly changing era, I firmly believe that Web3 is redefining the foundational logic of the internet. Decentralization brings us opportunities for freedom and innovation, allowing every voice to be heard.
+</p>
 
-<p>I’m always learning because technology moves fast, and stagnation means falling behind. To me, development isn’t just about getting things done—it’s about carefully crafting each line of code. I’m not a fan of "mass-produced" code that’s churned out in a factory; I focus on writing efficient and elegant code. Every bug I fix, every feature I build, is an opportunity to push myself further and take on new challenges.🚀</p>
+<p style="max-width: 800px; margin: auto; text-align: justify;">
+As an engineer, my role is to drive business success through high-quality code and innovative solutions. I keep a close eye on technological trends to ensure that our team and projects can continuously adapt and thrive in this fast-paced environment. I’m committed to delivering efficient and valuable outcomes while minimizing resource waste through thoughtful management and collaboration, achieving sustainable development for both the team and individuals.
+</p>
 
-<p>Of course, outside of coding, I’ve got another side—I love enjoying life. Exploring new foods, relaxing, and finding the right balance between work and life is key for me. I believe that a well-rounded life brings fresh inspiration and creativity to my work.</p>
+<p style="max-width: 800px; margin: auto; text-align: justify;">
+In my pursuit of technical excellence, I’ve come to realize how crucial it is to maintain a balance between work and life. Outstanding performance relies not only on hard work but also on the right combination of wisdom and strategy.
+</p>
 
-<p>Looking ahead, I’m excited to keep pushing myself, becoming a well-rounded full-stack developer, and making my mark in the Web3 space. At work, I believe in the power of teamwork and individual skills because “teamwork + personal effort = extraordinary achievements.”</p>
+<p style="max-width: 800px; margin: auto; text-align: justify;">
+Beyond coding, I am passionate about philosophy, history, and literature. In my free time, I enjoy participating in ball sports, cycling, and motorcycling. These interests enrich my perspective and help me grow beyond the technical realm.
+</p>
 
-<p>If you share similar interests or want to chat about tech and the future, feel free to reach out! Let’s explore this decentralized world together and take on limitless challenges!</p>
+<p style="max-width: 800px; margin: auto; text-align: justify;">
+If you’re interested in Web3, freedom, and innovation, I warmly invite you to reach out! Let’s spark some inspiration together in the waves of technology and explore infinite possibilities ahead.
+</p>
 
-<p>📧 You can reach me at <a href="mailto:leonkay.cn@gmail.com">leonkay.cn@gmail.com</a> || WeChat: <strong>lk34041515</strong></p>
+<h3>Contact Me</h3>
+
+<p style="text-align: center;">
+Feel free to contact me:
+</p>
+
+<ul style="list-style-type: none; padding: 0; text-align: center;">
+    <li><strong>GitHub</strong>: <a href="https://github.com/leon-kay" target="_blank">leon-kay's GitHub Profile</a></li>
+    <li><strong>Juejin</strong>: <a href="https://juejin.cn/user/2469950368518779" target="_blank">leon-kay's Juejin Profile</a></li>
+    <li><strong>Email</strong>: <a href="mailto:leonkay.cn@gmail.com">leonkay.cn@gmail.com</a></li>
+</ul>
+
+<br>
+<img align="left" src="https://visitor-badge.laobi.icu/badge?page_id=leonkay.leonkay" />
+<img align="right" src="https://img.shields.io/github/followers/leonkay?label=Follow&style=social" />
+<h1 align="center">Welcome to My Profile</h1>
+<img align="left" height="150px" src="https://github-readme-stats.vercel.app/api?username=leonkay&show_icons=true&theme=merko&count_private=true">
+<img align="right" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonkay&layout=compact&theme=merko&count_private=true">
 
 
+<div style="text-align: center; margin-top: 20px; color: #777;">
+    © 2025 Leon Kay. All rights reserved.
+</div>
