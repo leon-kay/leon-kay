@@ -61,7 +61,30 @@ Feel free to contact me:
 <img align="left" height="150px" src="https://github-readme-stats.vercel.app/api?username=leonkay&show_icons=true&theme=merko&count_private=true">
 <img align="right" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonkay&layout=compact&theme=merko&count_private=true">
 
+<a href="https://github.com/Charmve/github-readme-weather-widget"><img align="right" height="120%" width="296px" src="https://github-readme-weather-widget.vercel.app" alt="weather-local"></a><br>
 
+📊 **This Week I Spent My Time On:**
+
+<a href="https://charmve.github.io/clock.html"><img align="left" width="14%" src="src/clock.svg" alt="time-clock"></a>
+
+<!--START_SECTION:waka-->
+```text
+C/C++      5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 % 
+PyTorch    1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 % 
+Python     1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 % 
+Markdown   34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+JSON       17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+Others     38 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.82 %
+```
+
+如果您来自中国区，建议通过微信/支付宝赞助!
+
+<a href="./Images/wechatpayment.jpg"><img src="https://img.shields.io/badge/微信-收款-green?logo=wechat" alt="微信支付"></a> <a href="./Images/zfbpayment.jpg"><img src="https://img.shields.io/badge/支付宝-收款-blue?logo=alipay" alt="支付宝"></a> 
+
+
+<a href="./games/index.html" target="_blank"><img align="right" src="./Images/playagame.png" alt="Play a Game with Me" width="180px"></a>
+
+> To express my gratitude for your sponsorship, I have prepared a small gift for you. Click on the icon!
 <div style="text-align: center; margin-top: 20px; color: #777;">
     © 2025 Leon Kay. All rights reserved.
 </div>
