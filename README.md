@@ -82,7 +82,7 @@ Others     38 mins         █▓░░░░░░░░░░░░░░░�
 <a href="./Images/wechatpayment.jpg"><img src="https://img.shields.io/badge/微信-收款-green?logo=wechat" alt="微信支付"></a> <a href="./Images/zfbpayment.jpg"><img src="https://img.shields.io/badge/支付宝-收款-blue?logo=alipay" alt="支付宝"></a> 
 
 
-<a href="./games/index.html" target="_blank"><img align="right" src="./Images/playagame.png" alt="Play a Game with Me" width="180px"></a>
+<a href="./open_game.html" target="_blank"><img align="right" src="./Images/playagame.png" alt="Play a Game with Me" width="180px"></a>
 
 > To express my gratitude for your sponsorship, I have prepared a small gift for you. Click on the icon!
 <div style="text-align: center; margin-top: 20px; color: #777;">
