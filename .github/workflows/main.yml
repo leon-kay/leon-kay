@@ -21,7 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+    continue-on-error: false  # 明确错误终止
+    
     steps:
     - name: 🔄 Checkout Repository
       uses: actions/checkout@v4
@@ -36,20 +37,28 @@ jobs:
         
     - name: 🚀 Generate Dynamic Content
       run: |
-        # 生成动态内容到临时文件
-        node index.js > dynamic_content.tmp
+        # 生成动态内容到临时文件（确保命令成功执行）
+        node index.js > dynamic_content.tmp || { echo "生成动态内容失败"; exit 1; }
         
     - name: 📝 Replace Dynamic Section in README
       run: |
-        # 使用sed命令替换两个标记之间的内容
-        # 注意：确保你的README中存在 <!-- 动态内容开始 --> 和 <!-- 动态内容结束 --> 标记
-        sed -i -e '/<!-- 动态内容开始 -->/,/<!-- 动态内容结束 -->/{//!d;}' README.md
-        sed -i -e '/<!-- 动态内容开始 -->/r dynamic_content.tmp' README.md
+        # 确保 README.md 存在，不存在则创建（避免后续命令失败）
+        if [ ! -f "README.md" ]; then
+          echo "创建空 README.md"
+          touch README.md
+        fi
+        
+        # 使用 sed 替换动态内容（兼容 Ubuntu 的 sed 语法）
+        # 1. 删除标记间的旧内容（保留标记）
+        sed -i '/<!-- 动态进度矩阵开始 -->/,/<!-- 动态进度矩阵结束 -->/{//!d;}' README.md
+        # 2. 在开始标记后插入新内容
+        sed -i -e '/<!-- 动态进度矩阵开始 -->/r dynamic_content.tmp' README.md || { echo "替换内容失败"; exit 1; }
         
     - name: 📊 Check for Changes
       id: check_changes
       run: |
-        if git diff --quiet README.md; then
+        # 检查 README 是否有变化（忽略空格/空行差异）
+        if git diff --ignore-all-space --quiet README.md; then
           echo "changes_detected=false" >> $GITHUB_OUTPUT
         else
           echo "changes_detected=true" >> $GITHUB_OUTPUT
@@ -58,12 +67,19 @@ jobs:
     - name: 🚀 Commit and Push Changes
       if: steps.check_changes.outputs.changes_detected == 'true' || github.event.inputs.force_update == 'true'
       run: |
+        # 确保配置用户信息
         git config --local user.name 'github-actions[bot]'
         git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        
+        # 强制添加 README.md（确保修改被跟踪）
         git add README.md
-        git commit -m "🤖 Auto-update dynamic content - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-        git push
+        
+        # 提交（允许空提交，避免无内容时失败）
+        git commit -m "🤖 Auto-update dynamic content - $(date -u +"%Y-%m-%d %H:%M:%S UTC")" --allow-empty || { echo "提交失败"; exit 1; }
+        git push origin main || { echo "推送失败"; exit 1; }
         
     - name: 🧹 Cleanup
       if: always()
-      run: rm -f dynamic_content.tmp
+      run: |
+        # 清理临时文件，避免残留未跟踪文件
+        rm -f dynamic_content.tmp
