@@ -5,15 +5,15 @@
 
 <a href="https://github.com/leonkay"><img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter showing number of visitors to Leon Kay's profile" /></a>
 
-*A passionate .NET engineer exploring Web3 innovation while balancing technical excellence with life*
+*.NET Engineer × Web3 Explorer × Work-Life Balance Advocate*
 </div>
 
 ## 🚀 About Me
 <img align="right" alt="Animated GIF showing code being typed on a screen, representing programming and development work" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="250" />
 
-- **Tech Background**: .NET engineer focused on clean code and innovative solutions
-- **Web3 Believer**: Convicted that decentralization is redefining the internet's underlying logic
-- **Life Philosophy**: Pursue technical excellence while maintaining work-life balance
+- **Tech Background**: .NET developer who focuses on architectural design and strives for code stability and high maintainability.
+- **Web3 Believer**: Focused on how Web3 addresses real-world problems: data ownership, privacy protection, and platform dependency.
+- **Life Philosophy**: 靡不有初，鲜克有终 - Most things have beginnings, but few reach completion. Committed to being among the few who persist through to meaningful endings.
 
 ## 💻 What I'm Working On Now
 - [ ] 🦀 Learning Rust programming language
