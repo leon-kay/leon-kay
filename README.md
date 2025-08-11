@@ -1,5 +1,5 @@
-<div align="center">
-# 👋 Hey, I'm Leon Kay!
+<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1.5rem; border-radius: 15px; margin: 1rem 0; color: white;">
+<h1 style="font-size: 2.5rem; margin: 0;">👋 Hey, I'm Leon Kay!</h1>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=.NET+Engineer+%7C+Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing Leon Kay's professional titles: .NET Engineer | Web3 Enthusiast, Clean Code Advocate, Building the Decentralized Future" />
 
@@ -7,7 +7,6 @@
 
 *A passionate .NET engineer exploring Web3 innovation while balancing technical excellence with life*
 </div>
----
 
 ## 🚀 About Me
 <img align="right" alt="Animated GIF showing code being typed on a screen, representing programming and development work" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="250" />
@@ -60,6 +59,7 @@
 
 ---
 
+
 ## 📫 Let’s Connect!
 
 [![GitHub logo with black background and white text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leonkay)
@@ -95,5 +95,12 @@
 
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
 
-*Last updated: 2024-10-27*
+**⚡ Year Progress:** `╢████████████▶░░░░░░░░░░░░░░░░░╟` **33.45%**
+
+🎯 **Current Phase:** Q3 ACCELERATION  
+📅 **Days Elapsed:** 233/365  
+⏳ **Remaining:** 132 days  
+🚀 **Status:** ON TRACK
+
+*Last updated: 2025-08-10 22:00:00 UTC*
 
