@@ -1,26 +1,93 @@
-name: Progress Bar CI
+name: 📊 Progress Bar & README Update
 
 on:
   workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update README'
+        required: false
+        default: 'false'
+        type: boolean
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # 每6小时执行一次
+  push:
+    branches: [ main ]
+    paths: 
+      - 'index.js'
+      - '.github/workflows/*.yml'
 
 jobs:
-  build:
-
+  update-readme:
     runs-on: ubuntu-latest
-
+    
+    permissions:
+      contents: write
+      
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v1
+    - name: 🔄 Checkout Repository
+      uses: actions/checkout@v4  # 使用最新版本
       with:
-        node-version: '14.x'
-    - name: Update README.md
-      run: node index.js > README.md
-    - name: Commit change & Push
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+        
+    - name: 📦 Setup Node.js
+      uses: actions/setup-node@v4  # 使用最新版本
+      with:
+        node-version: '18.x'  # 使用更新的Node版本
+        cache: 'npm'
+        
+    - name: 📥 Install Dependencies
       run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'leonkay.cn+github-actions[bot]@users.noreply.github.com'
-          git commit -am "bot: update README.md automatically"
-          git push
+        if [ -f package.json ]; then
+          npm ci
+        else
+          echo "No package.json found, skipping npm install"
+        fi
+        
+    - name: 🔧 Generate README
+      run: |
+        echo "🚀 Generating new README.md..."
+        node index.js > README_new.md
+        
+    - name: 📊 Check for Changes
+      id: check_changes
+      run: |
+        if ! diff -q README.md README_new.md > /dev/null 2>&1; then
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected in README.md"
+        else
+          echo "changes_detected=false" >> $GITHUB_OUTPUT
+          echo "✅ No changes detected"
+        fi
+        
+    - name: 📝 Update README
+      if: steps.check_changes.outputs.changes_detected == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        mv README_new.md README.md
+        echo "📄 README.md updated successfully"
+        
+    - name: 🚀 Commit and Push Changes
+      if: steps.check_changes.outputs.changes_detected == 'true' || github.event.inputs.force_update == 'true'
+      run: |
+        git config --local user.name 'github-actions[bot]'
+        git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        
+        # 添加时间戳到提交信息
+        TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        
+        git add README.md
+        git commit -m "🤖 Auto-update README.md - ${TIMESTAMP}" \
+                   -m "Updated by GitHub Actions workflow" \
+                   -m "Triggered by: ${{ github.event_name }}"
+        git push
+        
+    - name: 📈 Update Stats
+      if: steps.check_changes.outputs.changes_detected == 'true'
+      run: |
+        echo "✅ README.md has been updated successfully!"
+        echo "🕐 Last updated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+        
+    - name: 🧹 Cleanup
+      if: always()
+      run: |
+        rm -f README_new.md
