@@ -84,23 +84,8 @@
 ------
 
 
-
-### 🐍 Contribution Snake
-
-![GitHub contribution activity visualization in the shape of a snake, showing Leon Kay's coding activity over time](https://raw.githubusercontent.com/leonkay/leonkay/output/github-contribution-grid-snake.svg)
-
-------
-
 ![Decorative footer separator graphic for GitHub profile](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
 
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
 
-<!-- 动态内容开始 -->
-⚡ Year Progress: ╢████████████▶░░░░░░░░░░░░░░░░░╟ 33.45%
-🎯 Current Phase: Q3 ACCELERATION
-📅 Days Elapsed: 233/365
-⏳ Remaining: 132 days
-🚀 Status: ON TRACK
-Last updated: 2025-08-10 22:00:00 UTC
-<!-- 动态内容结束 -->
 
