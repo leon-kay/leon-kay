@@ -1,4 +1,4 @@
-<h3 align="center">Hey there! Nice to see you. 👋</h3>
+<h1 align="center">Hey 👋What's Up?</h1>
 
 <div style="text-align: center;">
     <img alt="Static Badge" src="https://img.shields.io/badge/%20Job-Web3%20Engineer-cyan">
@@ -88,3 +88,13 @@ Others     38 mins         █▓░░░░░░░░░░░░░░░�
 <div style="text-align: center; margin-top: 20px; color: #777;">
     © 2025 Leon Kay. All rights reserved.
 </div>
+
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph.svg">
+</picture>
+
+###
