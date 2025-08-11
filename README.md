@@ -3,7 +3,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=.NET+Engineer+%7C+Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing Leon Kay's professional titles: .NET Engineer | Web3 Enthusiast, Clean Code Advocate, Building the Decentralized Future" />
 
-<a href="https://github.com/leonkay"><img src="https://profile-counter.glitch.me/leonkay/count.svg" alt="GitHub profile visitor counter showing number of visitors to Leon Kay's profile" /></a>
+<a href="https://github.com/leonkay"><img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter showing number of visitors to Leon Kay's profile" /></a>
 
 *A passionate .NET engineer exploring Web3 innovation while balancing technical excellence with life*
 </div>
@@ -72,7 +72,6 @@
 
 [![WeChat Payment logo with green background and white text](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E8%B5%9E%E8%B5%8F-07C160?style=for-the-badge&logo=wechat&logoColor=white)](./Images/wechatpayment.jpg)
 [![Alipay Payment logo with blue background and white text](https://img.shields.io/badge/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%89%93%E8%B5%8F-1677FF?style=for-the-badge&logo=alipay&logoColor=white)](./Images/zfbpayment.jpg)
-[![Buy Me A Coffee logo with yellow background and black text](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/leonkay)
 
 ------
 
