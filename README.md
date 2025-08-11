@@ -82,10 +82,6 @@
 *🎁 A special thank you gift awaits those who support my work!*
 
 ------
-
-
-![Decorative footer separator graphic for GitHub profile](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
-
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
 
 
