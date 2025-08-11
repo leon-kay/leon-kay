@@ -9,7 +9,7 @@ on:
         default: 'false'
         type: boolean
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # 每6小时更新一次
   push:
     branches: [ main ]
     paths: 
@@ -19,7 +19,6 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
       
@@ -34,122 +33,37 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18.x'
-        # 移除 cache: 'npm' 这一行，因为没有 package.json
         
-    - name: 🔧 Check and Create index.js
+    - name: 🚀 Generate Dynamic Content
       run: |
-        if [ ! -f index.js ]; then
-          echo "Creating index.js..."
-          cat > index.js << 'EOF'
-        // 年度进度条生成器
-        const now = new Date();
-        const startOfYear = new Date(now.getFullYear(), 0, 1);
-        const endOfYear = new Date(now.getFullYear() + 1, 0, 1);
-        const progress = ((now - startOfYear) / (endOfYear - startOfYear)) * 100;
-
-        // 生成进度条
-        const totalBars = 20;
-        const filledBars = Math.floor(progress / 5);
-        const progressBar = '█'.repeat(filledBars) + '▶' + '░'.repeat(totalBars - filledBars);
-
-        // 计算天数
-        const daysPassed = Math.floor((now - startOfYear) / (1000 * 60 * 60 * 24));
-        const daysRemaining = Math.floor((endOfYear - now) / (1000 * 60 * 60 * 24));
-
-        const readmeContent = \`<div align="center">
-
-        # 👋 Hey, I'm Leon Kay!
-
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF¢er=true&vCenter=true&width=435&lines=.NET+Engineer+%7C+Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Typing animation" />
-
-        <a href="https://github.com/leonkay"><img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="Profile views" /></a>
-
-        *A passionate .NET engineer exploring Web3 innovation while balancing technical excellence with life*
-
-        ---
-
-        ## 🌌 2025 Mission Progress 🌌
-
-        **⚡ Year Progress:** \\\`\${progressBar}\\\` **\${progress.toFixed(2)}%**
-
-        🎯 **Current Phase:** Q\${Math.ceil((now.getMonth() + 1) / 3)} ACTIVE  
-        📅 **Days Elapsed:** \${daysPassed}/365  
-        ⏳ **Remaining:** \${daysRemaining} days  
-        🚀 **Status:** ON TRACK
-
-        *Last updated: \${now.toISOString().replace('T', ' ').substring(0, 19)} UTC*
-
-        ---
-
-        ## 🚀 About Me
-        - **Tech Background**: .NET engineer focused on clean code and innovative solutions
-        - **Web3 Believer**: Convinced that decentralization is redefining the internet's underlying logic
-        - **Life Philosophy**: Pursue technical excellence while maintaining work-life balance
-
-        ## 💻 What I'm Working On Now
-        - 🦀 Learning Rust programming language
-        - ⛓️ Researching Solana on-chain development
-        - 🔧 Diving deep into Web3 tech stack
-        - 📚 Exploring blockchain fundamentals
-        - 🛠️ Building decentralized applications (dApps)
-
-        ## 🎯 Technical Interests
-        - **Core Skills**: .NET ecosystem development
-        - **Exploration Areas**: Web3, blockchain, smart contracts
-        - **Learning Focus**: Rust, Solana, DeFi protocols
-
-        ## 🌱 Hobbies
-        - 📖 Reading philosophy, history & literature
-        - ⚽ Ball sports enthusiast
-        - 🚴 Urban cycling explorer
-        - 🏍️ Motorcycle riding
-
-        ## 💡 My Philosophy
-        > In this rapidly changing era, decentralization brings opportunities for freedom and innovation, allowing every voice to be heard. As an engineer, I'm committed to driving business success through technology while staying alert to new trends.
-
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonkay/leonkay/output/github-contribution-grid-snake-dark.svg">
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonkay/leonkay/output/github-contribution-grid-snake.svg">
-          <img alt="Snake animation" src="https://raw.githubusercontent.com/leonkay/leonkay/output/github-contribution-grid-snake.svg">
-        </picture>
-
-        </div>\`;
-
-        console.log(readmeContent);
-        EOF
-        fi
+        # 生成动态内容到临时文件
+        node index.js > dynamic_content.tmp
         
-    - name: 🚀 Generate README Content
+    - name: 📝 Replace Dynamic Section in README
       run: |
-        echo "Running index.js..."
-        node index.js > README_new.md
+        # 使用sed命令替换两个标记之间的内容
+        # 注意：确保你的README中存在 <!-- 动态内容开始 --> 和 <!-- 动态内容结束 --> 标记
+        sed -i -e '/<!-- 动态内容开始 -->/,/<!-- 动态内容结束 -->/{//!d;}' README.md
+        sed -i -e '/<!-- 动态内容开始 -->/r dynamic_content.tmp' README.md
         
     - name: 📊 Check for Changes
       id: check_changes
       run: |
-        if [ ! -f README.md ]; then
-          echo "changes_detected=true" >> $GITHUB_OUTPUT
-        elif ! diff -q README.md README_new.md > /dev/null 2>&1; then
-          echo "changes_detected=true" >> $GITHUB_OUTPUT
-        else
+        if git diff --quiet README.md; then
           echo "changes_detected=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
         fi
-        
-    - name: 📝 Update README
-      if: steps.check_changes.outputs.changes_detected == 'true' || github.event.inputs.force_update == 'true'
-      run: |
-        mv README_new.md README.md
         
     - name: 🚀 Commit and Push Changes
       if: steps.check_changes.outputs.changes_detected == 'true' || github.event.inputs.force_update == 'true'
       run: |
         git config --local user.name 'github-actions[bot]'
         git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
-        
         git add README.md
-        git commit -m "🤖 Auto-update README.md - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+        git commit -m "🤖 Auto-update dynamic content - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
         git push
         
     - name: 🧹 Cleanup
       if: always()
-      run: rm -f README_new.md
+      run: rm -f dynamic_content.tmp
