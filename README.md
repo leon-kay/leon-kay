@@ -78,7 +78,7 @@
 ### 🎮 Fun Zone
 <div align="center">
   <a href="https://leonkay.github.io/leonkay/game.html" target="_blank">
-    <img src="./playagame.png" alt="Play a Game" width="180" />
+        <img src="./Images/playagame.png" alt="Play a Game with Me" width="180px" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'" />
   </a>
   <p>🎁 点击图片体验小游戏</p>
 </div>
