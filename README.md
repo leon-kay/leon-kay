@@ -1,100 +1,100 @@
-<h1 align="center">Hey 👋What's Up?</h1>
+<div align="center">
+# 👋 Hey, I'm Leon Kay!
 
-<div style="text-align: center;">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Job-Web3%20Engineer-cyan">
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-JavaScript-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-React-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Solidity-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Web3.js-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Ether.js-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Solana-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Rust-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-C%23-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Hardhat-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Golang-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Smart%20Contract-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Blockchain-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-OpenZeppelin-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Smart%20Contract%20Security-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-DeFi-yellowgreen"> 
-    <img alt="Static Badge" src="https://img.shields.io/badge/%20Skill-Anchor-yellowgreen"> 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=.NET+Engineer+%7C+Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing Leon Kay's professional titles: .NET Engineer | Web3 Enthusiast, Clean Code Advocate, Building the Decentralized Future" />
+
+<a href="https://github.com/leonkay"><img src="https://profile-counter.glitch.me/leonkay/count.svg" alt="GitHub profile visitor counter showing number of visitors to Leon Kay's profile" /></a>
+
+*A passionate .NET engineer exploring Web3 innovation while balancing technical excellence with life*
+</div>
+---
+
+## 🚀 About Me
+<img align="right" alt="Animated GIF showing code being typed on a screen, representing programming and development work" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="250" />
+
+- **Tech Background**: .NET engineer focused on clean code and innovative solutions
+- **Web3 Believer**: Convicted that decentralization is redefining the internet's underlying logic
+- **Life Philosophy**: Pursue technical excellence while maintaining work-life balance
+
+## 💻 What I'm Working On Now
+- [ ] 🦀 Learning Rust programming language
+- [ ] ⛓️ Researching Solana on-chain development
+- [ ] 🔧 Diving deep into Web3 tech stack
+- [ ] 📚 Exploring blockchain fundamentals
+- [ ] 🛠️ Building decentralized applications (dApps)
+
+## 🎯 Technical Interests
+- **Core Skills**: .NET ecosystem development
+- **Exploration Areas**: Web3, blockchain, smart contracts
+- **Learning Focus**: Rust, Solana, DeFi protocols
+
+## 🌱 Hobbies
+- 📖 Reading philosophy, history & literature
+- ⚽ Ball sports enthusiast
+- 🚴 Urban cycling explorer
+- 🏍️ Motorcycle riding
+
+## 💡 My Philosophy
+> In this rapidly changing era, decentralization brings opportunities for freedom and innovation, allowing every voice to be heard. As an engineer, I'm committed to driving business success through technology while staying sharp to new trends.
+
+---
+
+## 🛠️ Tech Stack
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="30" alt=".NET framework logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="C# programming language logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="30" alt="Rust programming language logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="React JavaScript library logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="JavaScript programming language logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="HTML5 logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="Python programming language logo icon" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="30" alt="Solidity programming language logo icon for smart contracts" />
 </div>
 
-<br>
+---
 
-<p style="max-width: 800px; margin: auto; text-align: justify;">
-I’m an engineer with a passion for Web3. In this rapidly changing era, I firmly believe that Web3 is redefining the foundational logic of the internet. Decentralization brings us opportunities for freedom and innovation, allowing every voice to be heard.
-</p>
+## 📫 Let’s Connect!
 
-<p style="max-width: 800px; margin: auto; text-align: justify;">
-As an engineer, my role is to drive business success through high-quality code and innovative solutions. I keep a close eye on technological trends to ensure that our team and projects can continuously adapt and thrive in this fast-paced environment. I’m committed to delivering efficient and valuable outcomes while minimizing resource waste through thoughtful management and collaboration, achieving sustainable development for both the team and individuals.
-</p>
+[![GitHub logo with black background and white text](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leonkay)
+[![Gmail logo with red background and white text](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonkay@gmail.com)
+[![CSDN logo with orange background and white text](https://img.shields.io/badge/CSDN-FC5531?style=for-the-badge&logo=csdn&logoColor=white)](https://blog.csdn.net/weixin_58043003)
+[![掘金 logo with blue background and white text](https://img.shields.io/badge/%E6%8E%98%E9%87%91-007FFF?style=for-the-badge&logo=juejin&logoColor=white)](https://juejin.cn/user/2469950368518779)
+[![WeChat logo with green background and white text](https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white)](./Images/wechat.jpg)
 
-<p style="max-width: 800px; margin: auto; text-align: justify;">
-In my pursuit of technical excellence, I’ve come to realize how crucial it is to maintain a balance between work and life. Outstanding performance relies not only on hard work but also on the right combination of wisdom and strategy.
-</p>
+### 💝 Support My Work
 
-<p style="max-width: 800px; margin: auto; text-align: justify;">
-Beyond coding, I am passionate about philosophy, history, and literature. In my free time, I enjoy participating in ball sports, cycling, and motorcycling. These interests enrich my perspective and help me grow beyond the technical realm.
-</p>
+[![WeChat Payment logo with green background and white text](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E8%B5%9E%E8%B5%8F-07C160?style=for-the-badge&logo=wechat&logoColor=white)](./Images/wechatpayment.jpg)
+[![Alipay Payment logo with blue background and white text](https://img.shields.io/badge/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%89%93%E8%B5%8F-1677FF?style=for-the-badge&logo=alipay&logoColor=white)](./Images/zfbpayment.jpg)
+[![Buy Me A Coffee logo with yellow background and black text](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/leonkay)
 
-<p style="max-width: 800px; margin: auto; text-align: justify;">
-If you’re interested in Web3, freedom, and innovation, I warmly invite you to reach out! Let’s spark some inspiration together in the waves of technology and explore infinite possibilities ahead.
-</p>
+------
 
-<h3>Contact Me</h3>
+### 🎮 Fun Zone
 
-<p style="text-align: center;">
-Feel free to contact me:
-</p>
+[![Play a Game with Me - clickable image leading to game page](./Images/playagame.png)](./open_game.html)
 
-<ul style="list-style-type: none; padding: 0; text-align: center;">
-    <li><strong>GitHub</strong>: <a href="https://github.com/leon-kay" target="_blank">leon-kay's GitHub Profile</a></li>
-    <li><strong>Juejin</strong>: <a href="https://juejin.cn/user/2469950368518779" target="_blank">leon-kay's Juejin Profile</a></li>
-    <li><strong>Email</strong>: <a href="mailto:leonkay.cn@gmail.com">leonkay.cn@gmail.com</a></li>
-</ul>
+*🎁 A special thank you gift awaits those who support my work!*
 
-<br>
-<img align="left" src="https://visitor-badge.laobi.icu/badge?page_id=leonkay.leonkay" />
-<img align="right" src="https://img.shields.io/github/followers/leonkay?label=Follow&style=social" />
-<h1 align="center">Welcome to My Profile</h1>
-<img align="left" height="150px" src="https://github-readme-stats.vercel.app/api?username=leonkay&show_icons=true&theme=merko&count_private=true">
-<img align="right" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonkay&layout=compact&theme=merko&count_private=true">
-
-<a href="https://github.com/Charmve/github-readme-weather-widget"><img align="right" height="120%" width="296px" src="https://github-readme-weather-widget.vercel.app" alt="weather-local"></a><br>
-
-📊 **This Week I Spent My Time On:**
-
-<a href="https://charmve.github.io/clock.html"><img align="left" width="14%" src="src/clock.svg" alt="time-clock"></a>
-
-<!--START_SECTION:waka-->
-```text
-C/C++      5 hrs 2 mins    ██████████████░░░░░░░░░░░   56.51 % 
-PyTorch    1 hr 11 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.39 % 
-Python     1 hr 7 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.61 % 
-Markdown   34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
-JSON       17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
-Others     38 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   07.82 %
-```
-
-如果您来自中国区，建议通过微信/支付宝赞助!
-
-<a href="./Images/wechatpayment.jpg"><img src="https://img.shields.io/badge/微信-收款-green?logo=wechat" alt="微信支付"></a> <a href="./Images/zfbpayment.jpg"><img src="https://img.shields.io/badge/支付宝-收款-blue?logo=alipay" alt="支付宝"></a> 
+------
 
 
-<a href="./open_game.html" target="_blank"><img align="right" src="./Images/playagame.png" alt="Play a Game with Me" width="180px"></a>
 
-> To express my gratitude for your sponsorship, I have prepared a small gift for you. Click on the icon!
-<div style="text-align: center; margin-top: 20px; color: #777;">
-    © 2025 Leon Kay. All rights reserved.
-</div>
+### 🐍 Contribution Snake
 
-###
+![GitHub contribution activity visualization in the shape of a snake, showing Leon Kay's coding activity over time](https://raw.githubusercontent.com/leonkay/leonkay/output/github-contribution-grid-snake.svg)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouz/maurodesouz/output/pacman-contribution-graph.svg">
-</picture>
+------
 
-###
+![Decorative footer separator graphic for GitHub profile](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
+
+**© 2024 Leon Kay • Made with ❤️ and lots of ☕**
+
+*Last updated: 2024-10-27*
+
