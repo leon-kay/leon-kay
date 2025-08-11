@@ -95,12 +95,12 @@
 
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
 
-**⚡ Year Progress:** `╢████████████▶░░░░░░░░░░░░░░░░░╟` **33.45%**
-
-🎯 **Current Phase:** Q3 ACCELERATION  
-📅 **Days Elapsed:** 233/365  
-⏳ **Remaining:** 132 days  
-🚀 **Status:** ON TRACK
-
-*Last updated: 2025-08-10 22:00:00 UTC*
+<!-- 动态内容开始 -->
+⚡ Year Progress: ╢████████████▶░░░░░░░░░░░░░░░░░╟ 33.45%
+🎯 Current Phase: Q3 ACCELERATION
+📅 Days Elapsed: 233/365
+⏳ Remaining: 132 days
+🚀 Status: ON TRACK
+Last updated: 2025-08-10 22:00:00 UTC
+<!-- 动态内容结束 -->
 
