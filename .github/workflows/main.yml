@@ -25,34 +25,54 @@ jobs:
       
     steps:
     - name: 🔄 Checkout Repository
-      uses: actions/checkout@v4  # 使用最新版本
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
         
     - name: 📦 Setup Node.js
-      uses: actions/setup-node@v4  # 使用最新版本
+      uses: actions/setup-node@v4
       with:
-        node-version: '18.x'  # 使用更新的Node版本
-        cache: 'npm'
+        node-version: '18.x'
         
-    - name: 📥 Install Dependencies
+    - name: 🔧 Check if index.js exists
       run: |
-        if [ -f package.json ]; then
-          npm ci
-        else
-          echo "No package.json found, skipping npm install"
+        if [ ! -f index.js ]; then
+          echo "❌ index.js not found!"
+          echo "Creating a basic index.js file..."
+          cat > index.js << 'EOF'
+        // Basic progress bar generator
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 1);
+        const end = new Date(now.getFullYear() + 1, 0, 1);
+        const progress = ((now - start) / (end - start)) * 100;
+        
+        const progressBar = '█'.repeat(Math.floor(progress / 5)) + '▶' + '░'.repeat(20 - Math.floor(progress / 5));
+        
+        console.log(`# 🌌 Year Progress 2025
+        
+        **⚡ Progress:** \`${progressBar}\` **${progress.toFixed(2)}%**
+        
+        📅 **Days:** ${Math.floor((now - start) / (1000 * 60 * 60 * 24))}/365  
+        ⏳ **Remaining:** ${Math.floor((end - now) / (1000 * 60 * 60 * 24))} days  
+        
+        *Last updated: ${now.toISOString()}*`);
+        EOF
         fi
         
-    - name: 🔧 Generate README
+    - name: 🚀 Generate README Content
       run: |
-        echo "🚀 Generating new README.md..."
+        echo "🔧 Running index.js..."
         node index.js > README_new.md
+        echo "✅ Generated new README content"
         
     - name: 📊 Check for Changes
       id: check_changes
       run: |
-        if ! diff -q README.md README_new.md > /dev/null 2>&1; then
+        if [ ! -f README.md ]; then
+          echo "📝 README.md doesn't exist, will create it"
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
+        elif ! diff -q README.md README_new.md > /dev/null 2>&1; then
           echo "changes_detected=true" >> $GITHUB_OUTPUT
           echo "📝 Changes detected in README.md"
         else
@@ -72,7 +92,6 @@ jobs:
         git config --local user.name 'github-actions[bot]'
         git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
         
-        # 添加时间戳到提交信息
         TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
         
         git add README.md
@@ -81,7 +100,7 @@ jobs:
                    -m "Triggered by: ${{ github.event_name }}"
         git push
         
-    - name: 📈 Update Stats
+    - name: 📈 Success Message
       if: steps.check_changes.outputs.changes_detected == 'true'
       run: |
         echo "✅ README.md has been updated successfully!"
