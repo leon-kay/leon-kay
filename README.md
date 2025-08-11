@@ -76,16 +76,39 @@
 ------
 
 ### 🎮 Fun Zone
+
 <div align="center">
-  <a href="https://leonkay.github.io/leonkay/game.html" target="_blank">
-        <img src="./Images/playagame.png" alt="Play a Game with Me" width="180px" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1.0)'" />
+  <a href="https://leon-kay.github.io/game.html" target="_blank" rel="noopener noreferrer">
+    <img src="./Images/playagame.png" 
+         alt="Play a Game with Me" 
+         width="200px" 
+         style="border-radius: 15px; 
+                box-shadow: 0 8px 25px rgba(0,123,255,0.3); 
+                transition: all 0.4s ease; 
+                cursor: pointer;
+                border: 3px solid transparent;
+                background: linear-gradient(45deg, #007bff, #28a745) padding-box;" 
+         onmouseover="this.style.transform='scale(1.08) rotate(2deg)'; 
+                     this.style.boxShadow='0 12px 35px rgba(0,123,255,0.5)';" 
+         onmouseout="this.style.transform='scale(1.0) rotate(0deg)'; 
+                    this.style.boxShadow='0 8px 25px rgba(0,123,255,0.3)';" />
   </a>
-  <p>🎁 点击图片体验小游戏</p>
+  
+  <br><br>
+  
+  <p style="font-size: 1.1em; 
+            color: #333; 
+            font-weight: 500; 
+            margin: 10px 0; 
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
+    🎁 <em>A special thank you gift awaits those who support my work!</em>
+  </p>
+  
+  <div style="margin-top: 15px;">
+    <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Game Status" />
+    <img src="https://img.shields.io/badge/Players-Welcome-blue?style=for-the-badge&logo=gamepad&logoColor=white" alt="Players Welcome" />
+  </div>
 </div>
-
-[![Play a Game with Me - clickable image leading to game page](./Images/playagame.png)](./open_game.html)
-
-*🎁 A special thank you gift awaits those who support my work!*
 
 ------
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
