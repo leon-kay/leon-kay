@@ -76,6 +76,12 @@
 ------
 
 ### 🎮 Fun Zone
+<div align="center">
+  <a href="https://leonkay.github.io/leonkay/game.html" target="_blank">
+    <img src="./playagame.png" alt="Play a Game" width="180" />
+  </a>
+  <p>🎁 点击图片体验小游戏</p>
+</div>
 
 [![Play a Game with Me - clickable image leading to game page](./Images/playagame.png)](./open_game.html)
 
