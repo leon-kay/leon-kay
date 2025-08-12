@@ -107,7 +107,12 @@
     <img src="https://img.shields.io/badge/Players-Welcome-blue?style=for-the-badge&logo=gamepad&logoColor=white" alt="Players Welcome" />
   </div>
 </div>
-------
-**© 2024 Leon Kay • Made with ❤️ and lots of ☕**
-
+<p style="font-size: 1.1em; 
+            color: #333; 
+            font-weight: 500; 
+            margin: 10px 0; 
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
+     <em> align="center" © 2025 Leon Kay • Made with ❤️ and lots of ☕</em>
+  </p>
+ 
 
