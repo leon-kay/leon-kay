@@ -13,7 +13,6 @@
 
 - **Tech Background**: .NET developer who focuses on architectural design and strives for code stability and high maintainability.
 - **Web3 Believer**: Focused on how Web3 addresses real-world problems: data ownership, privacy protection, and platform dependency.
-- **Life Philosophy**: 靡不有初，鲜克有终 - Most things have beginnings, but few reach completion. Committed to being among the few who persist through to meaningful endings.
 
 ## 💻 What I'm Working On Now
 - [ ] 🦀 Learning Rust programming language
@@ -34,8 +33,7 @@
 - 🏍️ Motorcycle riding
 
 ## 💡 My Philosophy
-> In this rapidly changing era, decentralization brings opportunities for freedom and innovation, allowing every voice to be heard. As an engineer, I'm committed to driving business success through technology while staying sharp to new trends.
-
+> 靡不有初，鲜克有终 - Most things have beginnings, but few reach completion. Committed to being among the few who persist through to meaningful endings.
 ---
 
 ## 🛠️ Tech Stack
@@ -94,8 +92,8 @@
                     this.style.boxShadow='0 8px 25px rgba(0,123,255,0.3)';" />
   </a>
   
-  <br><br>
-  
+  <br>
+
   <p style="font-size: 1.1em; 
             color: #333; 
             font-weight: 500; 
@@ -109,7 +107,6 @@
     <img src="https://img.shields.io/badge/Players-Welcome-blue?style=for-the-badge&logo=gamepad&logoColor=white" alt="Players Welcome" />
   </div>
 </div>
-
 ------
 **© 2024 Leon Kay • Made with ❤️ and lots of ☕**
 
