@@ -112,7 +112,7 @@
             font-weight: 500; 
             margin: 10px 0; 
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
-     <em> align="center" © 2025 Leon Kay • Made with ❤️ and lots of ☕</em>
+     <em>  © 2025 Leon Kay • Made with ❤️ and lots of ☕</em>
   </p>
  
 
