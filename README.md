@@ -1,9 +1,10 @@
 ## 👋 Hey, I'm Leon Kay!
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Full-Stack+Engineer+%7C+Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing professional titles">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Golang+Engineer;Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing professional titles">
   <img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter">
 </div>
+
 
 
 ---
