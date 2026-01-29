@@ -5,44 +5,35 @@
   <img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter">
 </div>
 
-*.NET Engineer × Web3 Explorer × Work-Life Balance Advocate*
+*Golang Enthusiast × Full-Stack Developer × AI Era Explorer*
 
 ---
-
-## 🚀 About Me
-
-### Tech Background
-.NET developer focused on architectural design, code stability, and high maintainability.
-
-### Web3 Believer
-Exploring how Web3 addresses real-world problems like data ownership, privacy protection, and platform dependency.
 
 <div align="center">
   <img src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" alt="Coding animation">
 </div>
 
----
-
 ## 💻 What I'm Working On Now
 
 | Current Focus | Description |
 |---------------|-------------|
-| 🦀 Learning Rust | Programming language focused on performance and safety |
-| ⛓️ Solana Development | Researching on-chain development and smart contracts |
-| 🔧 Web3 Tech Stack | Diving deep into blockchain infrastructure and tools |
-| 📚 Blockchain Fundamentals | Exploring the core concepts and principles |
-| 🛠️ Building dApps | Creating decentralized applications with real-world use cases |
+| 🐹 Learning Golang | Modern programming language focused on simplicity and efficiency |
+| 🤖 Learning AI Agent | Exploring the cutting-edge field of AI agents and their applications |
+| 🌟 Enjoying Life | Balancing technical growth with personal well-being and hobbies |
 
 ---
 
 ## 🎯 Technical Interests
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <a href="https://golang.org/" target="_blank"><img src="https://img.shields.io/badge/Golang-00ADD8?style=flat&logo=go&logoColor=white" alt="Golang"></a>
   <a href="https://dotnet.microsoft.com/" target="_blank"><img src="https://img.shields.io/badge/.NET%20Ecosystem-5C2D91?style=flat&logo=.net&logoColor=white" alt=".NET Ecosystem"></a>
-  <a href="https://web3js.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Web3-1A1A1A?style=flat&logo=ethereum&logoColor=white" alt="Web3"></a>
-  <a href="https://www.blockchain.com/" target="_blank"><img src="https://img.shields.io/badge/Blockchain-FF9500?style=flat&logo=bitcoin&logoColor=white" alt="Blockchain"></a>
+  <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vue.js&logoColor=white" alt="Vue"></a>
+  <a href="https://react.dev/" target="_blank"><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" alt="React"></a>
   <a href="https://soliditylang.org/" target="_blank"><img src="https://img.shields.io/badge/Smart%20Contracts-363636?style=flat&logo=solidity&logoColor=white" alt="Smart Contracts"></a>
   <a href="https://www.rust-lang.org/" target="_blank"><img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust"></a>
+  <a href="https://web3js.readthedocs.io/" target="_blank"><img src="https://img.shields.io/badge/Web3-1A1A1A?style=flat&logo=ethereum&logoColor=white" alt="Web3"></a>
+  <a href="https://www.blockchain.com/" target="_blank"><img src="https://img.shields.io/badge/Blockchain-FF9500?style=flat&logo=bitcoin&logoColor=white" alt="Blockchain"></a>
   <a href="https://solana.com/" target="_blank"><img src="https://img.shields.io/badge/Solana-000000?style=flat&logo=solana&logoColor=white" alt="Solana"></a>
 </div>
 
@@ -114,7 +105,7 @@ Most things have beginnings, but few reach completion. Committed to being among 
 ---
 
 <div align="center">
-  © 2025 Leon Kay • Made with ❤️ and lots of ☕
+  © 2026 Leon Kay • Made with ❤️ and lots of ☕
 </div>
  
 
