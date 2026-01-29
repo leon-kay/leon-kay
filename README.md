@@ -5,8 +5,6 @@
   <img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter">
 </div>
 
-*Golang Enthusiast × Full-Stack Developer × AI Era Explorer*
-
 ---
 
 <div align="center">
