@@ -1,7 +1,7 @@
 ## 👋 Hey, I'm Leon Kay!
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Golang+Engineer;Web3+Enthusiast;Clean+Code+Advocate;Building+the+Decentralized+Future" alt="Animated typing SVG showing professional titles">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=480&lines=.NET+&+Go+Engineer;Industrial+Automation+Practitioner;Clean+Code+Advocate;Exploring+Digital+Manufacturing" alt="Animated typing SVG showing professional titles">
   <img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter">
 </div>
 
@@ -17,9 +17,10 @@
 
 | Current Focus | Description |
 |---------------|-------------|
-| 🐹 Learning Golang | Modern programming language focused on simplicity and efficiency |
-| 🤖 Learning AI Agent | Exploring the cutting-edge field of AI agents and their applications |
-| 🌟 Enjoying Life | Balancing technical growth with personal well-being and hobbies |
+| Learning Golang | Modern programming language focused on simplicity and efficiency |
+| Researching Industrial Software | Deep dive into full-stack industrial software, automation control, industrial data platform and digital manufacturing systems across manufacturing sectors |
+| Learning AI Agent | Exploring the cutting-edge field of AI agents and their applications |
+| Enjoying Life | Balancing technical growth with personal well-being and hobbies |
 
 ---
 
