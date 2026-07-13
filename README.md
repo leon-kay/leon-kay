@@ -1,7 +1,8 @@
 ## 👋 Hey, I'm Leon Kay!
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00D9FF&center=true&vCenter=true&width=620&lines=.NET+&+Go+Engineer;Industrial+Automation+Practitioner;Clean+Code+Advocate;Exploring+Digital+Manufacturing" alt="Animated typing SVG showing professional titles">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Developer+working+with+.NET+%26+Go;Industrial+Automation+Practitioner;Advocate+for+structured+clean+code" alt="Typing SVG" /></a>
+  
   <img src="https://komarev.com/ghpvc/?username=leonkay&color=5865f2" alt="GitHub profile visitor counter">
 </div>
 
